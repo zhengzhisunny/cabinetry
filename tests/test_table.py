@@ -39,9 +39,9 @@ def test__yields(example_spec_multibin, example_spec_with_background):
         },
         {
             "sample": "data",
-            "region_1\nbin 1": "35.00",
-            "\nbin 2": "8.00",
-            "region_2\nbin 1": "10.00",
+            "region_1\nbin 1": "35",
+            "\nbin 2": "8",
+            "region_2\nbin 1": "10",
         },
     ]
 
@@ -56,5 +56,5 @@ def test__yields(example_spec_multibin, example_spec_with_background):
         {"sample": "Background", "Signal Region\nbin 1": "150.00"},
         {"sample": "Signal", "Signal Region\nbin 1": "50.00"},
         {"sample": "total", "Signal Region\nbin 1": "200.00 \u00B1 8.60"},
-        {"sample": "data", "Signal Region\nbin 1": "160.00"},
+        {"sample": "data", "Signal Region\nbin 1": "160"},
     ]

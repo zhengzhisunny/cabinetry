@@ -73,7 +73,7 @@ def _yields(
                 }
             )
             data_dict.update(
-                {_header_name(channel_name, i_bin): f"{data[i_chan][i_bin]:.2f}"}
+                {_header_name(channel_name, i_bin): f"{data[i_chan][i_bin]:.0f}"}
             )
     table += [total_dict, data_dict]
 
